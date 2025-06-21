@@ -46,3 +46,24 @@ This project is an interactive, gamified web application for building discipline
 1. Clone the repository:
    ```bash
    git clone https://github.com/rugtumu/Habit-Game
+
+2. Navigate to the project directory:
+   ```bash
+   cd habit-game
+
+3. Install dependencies:
+   ```bash
+   npm install
+
+4. Run the development server:
+   ```bash
+   npm run dev
+
+5. Open http://localhost:3000 in your browser.
+
+### Tech Stack
+* Next.js (React-based framework)
+* TypeScript
+* CSS Modules
+* LocalStorage API
+
