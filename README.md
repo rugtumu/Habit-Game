@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Discipline & Habit Gamification Game (Next.js)
 
-## Getting Started
+This project is an interactive, gamified web application for building discipline and habits. Built using Next.js, it integrates game mechanics with personal development goals. Players level up, earn rewards, and track their progress through a dynamic UI.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Core Game Systems
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Leveling System**: Gain XP by completing tasks. XP required increases by ~20% per level.
+- **Currency System**: Earn Gold Points (GP) for completing tasks. Spend GP in a reward shop.
+- **XP Visualization**: Animated XP bars and level indicators.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Task Categories
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Daily Quests**: Morning routine, deep work, physical activity, healthy meals, reading, detox, cleaning.
+- **Weekly Boss Battles**: Major milestones, skill improvements, long-term goal steps.
+- **Micro Habits**: Water intake, vitamins, journaling, steps, sleep, meditation.
 
-## Learn More
+### Progress Tracking
 
-To learn more about Next.js, take a look at the following resources:
+- **Streak Counters**: Tracks consecutive habit completions.
+- **Achievement Badges**: Unlock badges for key milestones.
+- **Progress Stats**: View total XP, longest streaks, completed tasks.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Reward System
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Reward Shop**: Spend GP on low, medium, or high-value real-world rewards.
 
-## Deploy on Vercel
+### Design & UI
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Dark Theme**: Bright accent colors with modern gaming aesthetic.
+- **Card Layout**: Rounded corners, shadows, hover and transition effects.
+- **Responsive Design**: Optimized for both desktop and mobile.
+- **Interactive Elements**: Animated XP bars, feedback notifications, completion effects.
+- **Optional Sounds**: Subtle audio cues for interactions.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Architecture
+
+- Built using **Next.js**
+- Uses **localStorage** for client-side data persistence
+- Offline support after initial load
+- No external libraries beyond standard web APIs
+
+## Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rugtumu/Habit-Game
